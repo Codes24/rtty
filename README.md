@@ -101,7 +101,7 @@ Please click the right mouse button
 
 ### Jquery
 
-    var data = {devid: 'test', username: 'test', password: '123456', cmd: 'ls', params: ['/'], env: {}};
+    var data = {devid: 'KaliHL1020', username: 'test', password: '123456', cmd: 'ls', params: ['/'], env: {}};
     $.post('https://your-server:5912/cmd', JSON.stringify(data), function(r) {console.log(r)});
 
 
