@@ -71,7 +71,7 @@ the world.
 ## For Linux distribution: Ubuntu, Debian, ArchLinux, Centos
 Install
 
-    wget -qO- https://raw.githubusercontent.com/zhaojh329/rtty/master/tools/install.sh | sudo bash
+    wget -qO- https://github.com/Codes24/rtty/master/tools/install.sh | sudo bash
 
 Run RTTY(Replace the following parameters with your own parameters)
 
