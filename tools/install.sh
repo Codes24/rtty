@@ -191,7 +191,7 @@ git clone https://github.com/zhaojh329/rtty.git || {
 		exit 1
 	}
 	cd ustream-ssl
-	git checkout 189cd38b4188bfcb4c8cf67d8ae71741ffc2b906
+	git checkout 23a3f2830341acd1db149175baf7315a33bd0edb
 	LIBSSL_VER=$(cat $LIBSSL_INCLUDE/opensslv.h | grep OPENSSL_VERSION_NUMBER | grep -o '[0-9x]\+')
 	LIBSSL_VER=$(echo ${LIBSSL_VER:2:6})
 
